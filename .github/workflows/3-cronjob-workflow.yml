@@ -9,5 +9,5 @@ jobs:
     steps:
       - name: Cron workflow
         run: |
-          echo :"Hello,world!"
-          echo :"Hello Again"
+          echo "Hello,world!"
+          echo "Hello Again"

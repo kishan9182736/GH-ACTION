@@ -8,5 +8,5 @@ jobs:
     steps:
       - name: First manual step
         run: |
-          echo :"Hello,world!"
-          echo :"Helloo Again"
+          echo "Hello,world!"
+          echo "Helloo Again"
