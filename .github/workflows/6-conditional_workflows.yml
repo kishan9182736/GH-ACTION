@@ -5,15 +5,13 @@ on:
     paths:
       - "backend/**"
     branches:
-    - main
+      - main
       
 jobs:
- conditional_workflow_jobs:
+  conditional_workflow_jobs:
     runs-on: ubuntu-latest
     
     steps:
       - name: Build backend image
         run: |
           echo "backend image is building"
-          
- 
