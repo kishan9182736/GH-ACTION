@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: First step
+      - name: First manual step
         run: |
           echo :"Hello,world!"
           echo :"Helloo Again"
