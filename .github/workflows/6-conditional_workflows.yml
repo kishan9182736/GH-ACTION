@@ -1,4 +1,4 @@
-name: Dependent_conditional_Workflows
+name: Dependent_conditional_Workflow
 
 on: 
   push:
