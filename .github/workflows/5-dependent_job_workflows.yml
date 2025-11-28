@@ -22,7 +22,7 @@ jobs:
   
   Third_workflow_jobs:
     runs-on: ubuntu-latest
-    needs: [first_workflow_job,second_workflow_jobs]
+    needs: [first_workflow_jobs,second_workflow_jobs]
     steps:
       - name: Third step
         run: |
