@@ -1,0 +1,23 @@
+name: Multi_Workflow
+on: 
+  push:
+    branches:
+      - Main
+jobs:
+  first_workflow_jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: First step
+        run: |
+          echo :"first_workflow_job"
+          
+    
+  second_workflow_jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: second step
+        run: |
+          echo :"second workflow job"
+           
