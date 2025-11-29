@@ -13,4 +13,4 @@ jobs:
           echo "Helloooo, this is script workflow"
 
       - name: Run Python Script
-        run: python3 script.py
+        run: python script.py
