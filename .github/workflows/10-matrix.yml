@@ -27,4 +27,4 @@ jobs:
 
       - name: Print both matrix values
         run: |
-          echo "${{ matrix.uppercase }} - ${!! matrix.lowercase }}"
+          echo "MAtrix is: ${{ matrix.uppercase }} ${{matrix.lowercase }}"
