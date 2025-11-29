@@ -13,6 +13,6 @@ jobs:
 
     steps:
       - name: Build Backend Image
-        run: echo "Backend image is building"
+        uses: kishan9182736/GH-ACTION/.github/workflows/12-reusable.yml@main
           
   
