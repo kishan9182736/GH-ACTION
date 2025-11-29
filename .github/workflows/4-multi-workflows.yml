@@ -3,7 +3,7 @@ name: Multi_Workflow
 on: 
   push:
     branches:
-      - main  # make sure this matches your branch name
+      # - main  # make sure this matches your branch name
 
 jobs:
   first_workflow_jobs:
