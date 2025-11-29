@@ -8,10 +8,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: NodeJs Version
-        run: node -v
-        
-      - name: Setup NodeJs
-        uses: action/setup-node@v4
+      - name: NodeJs Version Before Setup
+        run: node -v || echo "Node not installed yet"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-            node-version : '20'
+          node-version: '20'
+
+      - name: NodeJs Version After Setup
+        run: node -v
