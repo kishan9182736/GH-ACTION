@@ -5,7 +5,7 @@ on:
 
 
 jobs:
-  first_workflow_jobs:
+  Dependent_first_workflow_jobs:
     runs-on: ubuntu-latest
 
     steps:
@@ -13,16 +13,16 @@ jobs:
         run: |
           echo "first workflow job"
           
-  second_workflow_jobs:
+  Dependent_second_workflow_jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Second step
         run: |
           echo "second workflow job"
   
-  Third_workflow_jobs:
+  Dependent_Third_workflow_jobs:
     runs-on: ubuntu-latest
-    needs: [first_workflow_jobs,second_workflow_jobs]
+    needs: [Dependent_first_workflow_jobs,Dependent_second_workflow_jobs]
     steps:
       - name: Third step
         run: |

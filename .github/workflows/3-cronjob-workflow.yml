@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: '*/1 * * * *' #run in every one minutes
 jobs:
-  first_workflow:
+  Cron_first_workflow:
     runs-on: ubuntu-latest
 
     steps:

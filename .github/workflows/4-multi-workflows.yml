@@ -3,10 +3,10 @@ name: Multi_Workflow
 on: 
   push:
     branches:
-      # - main  # make sure this matches your branch name
+      - main  # make sure this matches your branch name
 
 jobs:
-  first_workflow_jobs:
+  Multi_first_workflow_jobs:
     runs-on: ubuntu-latest
 
     steps:
@@ -14,7 +14,7 @@ jobs:
         run: |
           echo "first_workflow_job"
           
-  second_workflow_jobs:
+  Multi_second_workflow_jobs:
     runs-on: ubuntu-latest
 
     steps:

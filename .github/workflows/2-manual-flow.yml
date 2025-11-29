@@ -2,7 +2,7 @@ name: Manual_Workflow
 on:
     workflow_dispatch:
 jobs:
-  first_workflow:
+  Manual_first_workflow:
     runs-on: ubuntu-latest
 
     steps:
