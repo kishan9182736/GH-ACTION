@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+
       - name: Script workflow
         run: |
           echo "Helloooo, this is script workflow"
