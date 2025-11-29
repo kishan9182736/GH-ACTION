@@ -4,8 +4,7 @@ on:
   push:
     paths:
       - "backend/**"
-    branches:
-      - main
+   
       
 jobs:
   conditional_workflow_jobs:
@@ -13,5 +12,4 @@ jobs:
     
     steps:
       - name: Build backend image
-        run: |
-          echo "backend image is building"
+        run: echo "backend image is building"
