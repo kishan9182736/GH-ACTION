@@ -4,15 +4,9 @@ on:
   push:
     paths:
       - "backend/**"
-
-
-    
+   
 jobs:
   Dependent_first_workflow_jobs:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Build Backend Images
-        uses: kishan9182736/GH-ACTION/.github/workflows/12-reusable.yml@main
+    uses: kishan9182736/GH-ACTION/.github/workflows/12-reusable.yml@main
           
   
