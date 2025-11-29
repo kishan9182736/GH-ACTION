@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Script workflow
         run: |
-          echo "Hello, this is script workflow"
+          echo "Helloooo, this is script workflow"
 
       - name: Run Python Script
-        run: python3 frontend/script.py
+        run: python3 script.py
