@@ -12,4 +12,4 @@ jobs:
     
     steps:
       - name: Build backend image
-        run: echo "bbackend image is building"
+        run: echo "bbbackend image is building"
