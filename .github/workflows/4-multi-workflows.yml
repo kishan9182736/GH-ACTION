@@ -1,9 +1,7 @@
 name: Multi_Workflow
 
 on: 
-  push:
-    branches:
-      - main  # make sure this matches your branch name
+   workflow_dispatch:
 
 jobs:
   Multi_first_workflow_jobs:
