@@ -1,0 +1,1 @@
+print ["hello from frontend / script.py"]

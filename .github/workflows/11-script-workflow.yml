@@ -1,0 +1,16 @@
+name: Script_Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  script-workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Script workflow
+        run: |
+          echo "Hello, this is script workflow"
+
+      - name: Run Python Script
+        run: python script.py
