@@ -1,1 +1,1 @@
-print ["hello from frontend / script.py"]
+print("hello from frontend / script.py")
