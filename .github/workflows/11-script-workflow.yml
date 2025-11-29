@@ -13,4 +13,4 @@ jobs:
           echo "Hello, this is script workflow"
 
       - name: Run Python Script
-        run: python script.py
+        run: python .github/workflows/frontend/script.py
